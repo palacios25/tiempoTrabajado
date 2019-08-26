@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tiempo trabajado</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="tiempoTrabajado.js"></script>
+</head>
+<body>
+     <div>
+    <p>Horario de entrada</p>
+        <div>
+            <label for="hrE">Hora:</label>
+            <input type="number" id="hrE"/>
+        </div>
+        <div>
+            <label for="minE">Minutos:</label>
+            <input type="number" id="minE"/>
+        </div>
+        <div>
+            <label for="segE">Segundos:</label>
+            <input type="number" id="segE"/>
+        </div>
+        <p>Horario de salida</p>
+        <div>
+            <label for="hrS">Hora:</label>
+            <input type="number" id="hrS"/>
+        </div>
+        <div>
+            <label for="minS">Minutos:</label>
+            <input type="number" id="minS"/>
+        </div>
+        <div>
+            <label for="segS">Segundos:</label>
+            <input type="number" id="segS"/>
+        </div>
+        <button type="button" id="btn" onclick="Tiempo()" >Calcular tiempo trabajado</button>
+    </div>
+</body>
+</html>
